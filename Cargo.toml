@@ -3,6 +3,11 @@ name = "uncheck-ord"
 version = "0.1.0"
 authors = ["Yuta Hinokuma <yuta.hinokuma725@gmail.com>"]
 edition = "2018"
+description = "Wrapper type to easily convert Ord to PartialOrd. inspired by std::cmp::Reverse"
+repository = "https://github.com/higumachan/uncheck-ord"
+license = "MIT OR Apache-2.0"
+keywords = ["PartialOrd", "Ord", "Reverse", "wrapper type"]
+categories = ["rust-patterns", ]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
