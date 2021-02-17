@@ -1,6 +1,6 @@
 [package]
 name = "unwrap-ord"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Yuta Hinokuma <yuta.hinokuma725@gmail.com>"]
 edition = "2018"
 description = "Wrapper type to easily convert Ord to PartialOrd. inspired by std::cmp::Reverse"
