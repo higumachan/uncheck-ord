@@ -1,5 +1,7 @@
 # unwrap-ord
 
+![Crates.io](https://img.shields.io/crates/v/unwrap-ord)
+
 Wrapper type to easily convert Ord to PartialOrd. inspired by std::cmp::Reverse
 
 # How to use 
