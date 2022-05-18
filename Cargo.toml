@@ -1,11 +1,12 @@
 [package]
 name = "unwrap-ord"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Yuta Hinokuma <yuta.hinokuma725@gmail.com>"]
 edition = "2018"
 description = "Wrapper type to easily convert Ord to PartialOrd. inspired by std::cmp::Reverse"
 repository = "https://github.com/higumachan/unwrap-ord"
-license = "MIT OR Apache-2.0"
+license = "MIT"
+license-file = "LICENSE"
 keywords = ["PartialOrd", "Ord", "Reverse", "wrapper-type"]
 categories = ["rust-patterns", ]
 readme = "README.md"
