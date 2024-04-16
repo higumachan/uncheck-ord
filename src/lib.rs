@@ -1,10 +1,16 @@
 use std::cmp::Ordering;
 use std::fmt::{Debug, Formatter};
 
-#[derive(PartialOrd, PartialEq)]
+#[derive(PartialEq)]
 pub struct UnwrapOrd<T: PartialOrd + PartialEq>(pub T);
 
 impl<T: PartialOrd + PartialEq> Eq for UnwrapOrd<T> {}
+
+impl<T: PartialOrd + PartialEq> PartialOrd for UnwrapOrd<T> {
+    fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
+        Some(self.cmp(other))
+    }
+}
 
 impl<T: PartialOrd + PartialEq> Ord for UnwrapOrd<T> {
     fn cmp(&self, other: &Self) -> Ordering {
