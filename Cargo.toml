@@ -2,7 +2,7 @@
 name = "unwrap-ord"
 version = "0.1.2"
 authors = ["Yuta Hinokuma <yuta.hinokuma725@gmail.com>"]
-edition = "2018"
+edition = "2021"
 description = "Wrapper type to easily convert Ord to PartialOrd. inspired by std::cmp::Reverse"
 repository = "https://github.com/higumachan/unwrap-ord"
 license = "MIT"
